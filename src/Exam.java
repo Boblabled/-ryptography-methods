@@ -16,7 +16,7 @@ public class Exam {
                     .mapToObj(e->(char)e).collect(Collectors.toCollection(ArrayList::new));
     private static final int DIVIDER = 256;
     private static final int ASCIIOFFSET = 224;
-    private static final String OUTPUTPATH = "src/decodedText.txt";
+    private static final String OUTPUTPATH = "data/decodedText.txt";
 
     public static void run(String intsPath, String remaindersPath, int d, int p, int q) {
         System.out.println("\nEXAM:");

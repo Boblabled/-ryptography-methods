@@ -38,6 +38,6 @@ public class Main {
                 "1452173985408750203318475117189636062911214042143");
 
         // В качестве зачетного задания предлагается произвести дешифровку некоторого сообщения.
-        Exam.run("src/array_int_parts_3.csv", "src/array_remainders_3.csv", 8135, 97, 149);
+        Exam.run("data/array_int_parts_3.csv", "data/array_remainders_3.csv", 8135, 97, 149);
     }
 }
